@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8afa506-2779-49d9-8ce2-f28ca70a6492" name="Changes" comment="loop dun">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fibonacci.iml" afterDir="false" />
+    <list default="true" id="d8afa506-2779-49d9-8ce2-f28ca70a6492" name="Changes" comment="all works!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
     </list>
@@ -51,7 +46,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695975678761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all works!">
+      <created>1695979204762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695979204762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +69,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="loop dun" />
-    <option name="LAST_COMMIT_MESSAGE" value="loop dun" />
+    <MESSAGE value="all works!" />
+    <option name="LAST_COMMIT_MESSAGE" value="all works!" />
   </component>
 </project>

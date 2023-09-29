@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -6,8 +7,13 @@ public class Fibonacci {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("add meg a sor hosszát:");
-        length = scn.nextInt();
-
+        try {
+            length = scn.nextInt();
+            if(length <= 0) throw new InputMismatchException("A szám túl kicsi!");
+        } catch (Exception e) {
+            System.out.println("Hiba: " + e + " A program leáll...");
+            System.exit(1);
+        }
         int fibo = fibonacci();
         System.out.println("Az eredmény ciklussal: " + fibo);
         fibo = fibonacciRec();
